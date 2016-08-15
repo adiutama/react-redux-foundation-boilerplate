@@ -14,7 +14,7 @@ module.exports = {
   ],
   output: {
     path: absolutePath,
-    filename: 'bundle.js',
+    filename: 'app.js',
     publicPath: assetPath
   },
   plugins: [
@@ -26,7 +26,7 @@ module.exports = {
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
-    new ExtractTextPlugin("bundle.css")
+    new ExtractTextPlugin("style.css")
   ],
   module: {
     loaders: [
