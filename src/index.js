@@ -4,6 +4,6 @@ import { render } from 'react-dom'
 const store = configureStore()
 
 render(
-  <Root store={store} />,
-  document.getElementById('root')
+    <p>Hello world!</p>,
+    document.getElementById('root')
 )
