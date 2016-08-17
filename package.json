@@ -1,7 +1,7 @@
 {
-  "name": "r3-foundation",
+  "name": "redux-app-boilerplate",
   "version": "1.0.0",
-  "description": "redux-react-router and foundation boilerplate",
+  "description": "redux + react and foundation boilerplate",
   "keywords": [
     "redux",
     "react",
@@ -15,27 +15,27 @@
   ],
   "main": "index.js",
   "scripts": {
-    "start": "node server"
+    "start": "webpack-dev-server --hot --inline"
   },
-  "author": "Anton Wilhelm",
+  "author": "Adi Utama",
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.0",
     "font-awesome": "^4.3.0",
     "foundation-sites": "^6.1.2",
-    "jquery": "^1.12.4",
-    "react": "^0.14.5",
-    "react-addons-update": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "jquery": "^3.1.0",
+    "react": "^15.3.0",
+    "react-addons-update": "^15.3.0",
+    "react-dom": "^15.3.0",
     "react-redux": "^4.4.5",
     "redux": "^3.2.1",
-    "redux-logger": "^2.5.2",
+    "redux-logger": "^2.5.2"
   },
   "optionalDependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.3.2",
     "babel-core": "^6.3.15",
-    "babel-loader": "^6.2.0",
+    "babel-loader": "^6.2.5",
     "babel-plugin-transform-runtime": "^6.5.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
@@ -43,21 +43,17 @@
     "babel-preset-stage-0": "^6.5.0",
     "babel-runtime": "^6.9.2",
     "css-loader": "^0.23.1",
-    "express": "^4.13.3",
     "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.8.5",
+    "file-loader": "^0.9.0",
     "node-sass": "^3.4.2",
-    "postcss-loader": "^0.8.0",
+    "postcss-loader": "^0.10.0",
     "redux-devtools": "^3.1.0",
     "redux-devtools-dock-monitor": "^1.0.1",
     "redux-devtools-log-monitor": "^1.0.3",
-    "sass-loader": "^3.1.2",
-    "script-loader": "^0.6.1",
-    "serve-static": "^1.11.1",
+    "sass-loader": "^4.0.0",
+    "script-loader": "^0.7.0",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.9.11",
-    "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.2.0"
+    "webpack": "^1.9.11"
   }
 }
